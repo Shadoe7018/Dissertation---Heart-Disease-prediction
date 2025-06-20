@@ -1,6 +1,3 @@
-Here's a tailored `README.md`-style content for your heart disease prediction project using Logistic Regression, Random Forest, and SVM:
-
----
 
 # Heart Disease Prediction Using Machine Learning Models
 
