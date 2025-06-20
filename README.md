@@ -1,6 +1,60 @@
-# Dissertation---Heart-Disease-prediction
-To analyze the impact of different features (heart rate variability, resting heart rate, etc.) on heart disease prediction and provide insights on the best model for smartwatch-based detection
+Here's a tailored `README.md`-style content for your heart disease prediction project using Logistic Regression, Random Forest, and SVM:
+
+---
+
+# Heart Disease Prediction Using Machine Learning Models
+
+This project presents a comparative analysis of three supervised machine learning algorithms—**Logistic Regression**, **Random Forest**, and **Support Vector Machine (SVM)**—to predict the presence of heart disease based on physiological features collected from smartwatch-like sources.
+
+## Models Used
+
+* **Logistic Regression**: A simple and interpretable linear classifier.
+* **Random Forest**: An ensemble model known for robustness and feature importance analysis.
+* **Support Vector Machine (SVM)**: A powerful classifier effective in high-dimensional spaces.
+
+## Dataset
+
+* **Heart Disease UCI Dataset** (sourced from IEEE DataPort).
+* 303 patient records with 14 features + 1 target variable.
+* Features include:
+
+  * Demographic: `age`, `sex`
+  * Clinical: `cp`, `chol`, `thalach`, `restecg`, `exang`, `oldpeak`, etc.
+
+## Preprocessing Steps
+
+* Handled missing values using **mean imputation**.
+* Applied **one-hot encoding** to categorical features.
+* Standardized numerical features using **StandardScaler**.
+* Split data into **80% training** and **20% testing** sets.
+
+## Evaluation Metrics
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC Score
+* Confusion Matrix
+* ROC Curve
+
+## Key Findings
+
+* **Random Forest** outperformed others with highest accuracy (86.9%) and F1-score (0.87).
+* **SVM** showed excellent **recall**, especially for heart disease detection (88%), ideal for clinical settings.
+* **Logistic Regression** provided simplicity and interpretability, with balanced metrics and fast execution.
+
+## Dependencies
+
+* Python 3.9+
+* scikit-learn
+* pandas
+* matplotlib
+* seaborn
+* Jupyter Notebook (or Google Colab)
 
 
-Heart disease remains one of the leading causes of death worldwide, and early detection is crucial for preventing severe complications. With the increasing popularity of smartwatches equipped with heart rate sensors, there is a growing opportunity to leverage wearable technology for real-time heart health monitoring. However, the accuracy and effectiveness of different machine learning models in predicting heart disease from smartwatch data remain uncertain. 
-This project aims to compare the performance of Random Forest, Support Vector Machine (SVM), and Neural Networks (LSTM/GRU) in predicting heart conditions based on heart rate data. By identifying the most accurate model, this research can help improve early detection systems, assist healthcare professionals in risk assessment, and potentially lead to personalized, AI-driven health monitoring solutions
+**Author:** Sakthivel Mohankumar
+**University of Hertfordshire – MSc Data Science**
+**Supervisor:** Ashley Spindler
+
