@@ -52,6 +52,8 @@ This project presents a comparative analysis of three supervised machine learnin
 
 
 **Author:** Sakthivel Mohankumar
+
 **University of Hertfordshire – MSc Data Science**
+
 **Supervisor:** Ashley Spindler
 
